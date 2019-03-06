@@ -1,0 +1,17 @@
+C:\Projetos\College\Dominio\bin\Debug\Dominio.dll.config
+C:\Projetos\College\Dominio\bin\Debug\Dominio.dll
+C:\Projetos\College\Dominio\bin\Debug\Dominio.pdb
+C:\Projetos\College\Dominio\bin\Debug\EntityFramework.dll
+C:\Projetos\College\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\College\Dominio\bin\Debug\EntityFramework.xml
+C:\Projetos\College\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\College\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\College\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Projetos\College\Dominio\obj\Debug\Dominio.dll
+C:\Projetos\College\Dominio\obj\Debug\Dominio.pdb
+C:\Projetos\College\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Projetos\College\Dominio\bin\Debug\AutoMapper.dll
+C:\Projetos\College\Dominio\bin\Debug\System.ValueTuple.dll
+C:\Projetos\College\Dominio\bin\Debug\AutoMapper.pdb
+C:\Projetos\College\Dominio\bin\Debug\AutoMapper.xml
+C:\Projetos\College\Dominio\bin\Debug\System.ValueTuple.xml

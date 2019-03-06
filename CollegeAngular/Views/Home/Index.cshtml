@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="container" ng-controller="HomeController">
+    <br />
+    <h4>Relatorio Curso</h4>
+
+    <div class="row">
+        <div class="panel panel-default col-md-4 col-lg-4" ng-repeat="item in dashboard">
+            <div class="panel-heading">{{item.NomeCurso}}</div>
+            <div class="panel-body">
+                Disciplinas: {{item.QtdDisciplinas}} <br />
+                Alunos: {{item.QtdAlunos}}<br />
+                Media Nota: {{item.MediaNota}}<br />
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <h4>Relatorio Disciplina</h4>
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Curso - Disciplina</th>
+            <th scope="col">Professor</th>
+            <th scope="col">Alunos</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in relatorioDisciplina">
+            <td>{{item.Curso.Nome}} - {{item.Nome}}</td>
+            <td>{{item.Professor.Nome}} - Salario: {{item.Professor.Salario}}</td>
+            <td>
+                <span ng-repeat="alunos in item.DisciplinaAlunos">
+                    {{alunos.Aluno.Nome}} - Nota: {{alunos.Nota}}
+                    <br/>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
